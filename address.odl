@@ -1,0 +1,42 @@
+// address.odl : type library source for address.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (address.tlb).
+
+[ uuid(CB2D9F1D-D109-446B-A8F0-C6716205AC1A), version(1.0) ]
+library Address
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CAddressDoc
+	
+	[ uuid(1EAB1A87-CAFD-4A8A-B43B-77BBDBE7EE49) ]
+	dispinterface IAddress
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CAddressDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CAddressDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CAddressDoc
+	
+	[ uuid(F3CAEE0F-4D24-4800-A746-9B7080362804) ]
+	coclass Document
+	{
+		[default] dispinterface IAddress;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

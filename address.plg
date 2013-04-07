@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: address - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP8221.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/address.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\bjones\address\address.2004.08.17\addressDoc.cpp"
+"C:\bjones\address\address.2004.08.17\AddressGroupDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8221.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8222.TMP" with contents
+[
+C:\bjones\license\debug\YoLicense.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/address.pdb" /debug /machine:I386 /out:"Debug/address.exe" /pdbtype:sept 
+.\Debug\address.obj
+.\Debug\AddressAddEntryDlg.obj
+.\Debug\addressDoc.obj
+.\Debug\AddressGroupDlg.obj
+.\Debug\AddressLicenseDlg.obj
+.\Debug\AddressMessageDlg.obj
+.\Debug\AddressReturnAddressDlg.obj
+.\Debug\addressView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\address.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP8222.TMP"
+<h3>Output Window</h3>
+Compiling...
+addressDoc.cpp
+AddressGroupDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+address.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

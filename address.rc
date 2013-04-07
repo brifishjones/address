@@ -1,0 +1,687 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\address.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\address.ico"
+IDR_ADDRESSTYPE         ICON    DISCARDABLE     "res\\addressDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "Merge...",                    ID_FILE_MERGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Write Selected To File...",   ID_FILE_WRITE_SELECTED_TO_FILE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Export Outlook csv...",       ID_FILE_EXPORT_CSV
+        MENUITEM "Export Palm csv...",          ID_FILE_EXPORT_PALM_CSV
+        MENUITEM "Export Unix .mailrc...",      ID_FILE_EXPORT_MAILRC
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT, GRAYED
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY, GRAYED
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE, GRAYED
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Last name first",             ID_VIEW_LAST_NAME_FIRST
+        MENUITEM "Return Address...",           ID_VIEW_RETURN_ADDRESS
+    END
+    POPUP "F&ont"
+    BEGIN
+        MENUITEM "Choose...",                   ID_FONT_CHOOSE
+        MENUITEM "Restore Default",             ID_FONT_RESTORE_DEFAULT
+    END
+    POPUP "&Group"
+    BEGIN
+        MENUITEM "Update...",                   ID_GROUP_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "one",                         ID_GROUP_ONE
+        MENUITEM "two",                         ID_GROUP_TWO
+        MENUITEM "three",                       ID_GROUP_THREE
+        MENUITEM "four",                        ID_GROUP_FOUR
+        MENUITEM "five",                        ID_GROUP_FIVE
+        MENUITEM "six",                         ID_GROUP_SIX
+        MENUITEM "seven",                       ID_GROUP_SEVEN
+        MENUITEM "eight",                       ID_GROUP_EIGHT
+        MENUITEM "nine",                        ID_GROUP_NINE
+        MENUITEM "ten",                         ID_GROUP_TEN
+        MENUITEM "eleven",                      ID_GROUP_ELEVEN
+        MENUITEM "twelve",                      ID_GROUP_TWELVE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About address...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 274, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About address"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20
+    LTEXT           "Version: 2004.01.14",IDC_VERSION,40,9,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003-2004",IDC_STATIC,40,34,137,8
+    DEFPUSHBUTTON   "OK",IDOK,217,45,50,14,WS_GROUP
+    LTEXT           "Brian E. Jones",IDC_STATIC,40,43,137,8
+    LTEXT           "License: 0000xxxx0000xxxx 1111yyyy1111yyyy 2222zzzz2222zzzz",
+                    IDC_LICENSE,40,18,227,8
+END
+
+IDD_ADDRESS_TOP DIALOGEX 0, 0, 437, 29
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "list",IDC_LIST,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,25,5,46,13,WS_EX_STATICEDGE
+    CONTROL         "book",IDC_BOOK,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,72,5,46,13,WS_EX_STATICEDGE
+    CONTROL         "envelope",IDC_ENVELOPE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,119,5,46,13,WS_EX_STATICEDGE
+    CONTROL         "label",IDC_LABEL,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,166,5,46,13,WS_EX_STATICEDGE
+    EDITTEXT        IDC_LINE_SPACING,228,1,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLUMN_WIDTH,228,15,25,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Line Spacing",IDC_LINE_SPACING_DEFAULTS,256,1,49,12,
+                    BS_FLAT
+    PUSHBUTTON      "Column Width",IDC_COLUMN_WIDTH_DEFAULTS,256,15,49,12,
+                    BS_FLAT
+    LTEXT           "View:",IDC_STATIC,6,7,17,8
+    CONTROL         "return",IDC_RETURN,"Button",BS_AUTORADIOBUTTON | NOT 
+                    WS_VISIBLE,227,17,34,8
+    EDITTEXT        IDC_RETURN_SIZE,265,16,15,11,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "%",IDC_RETURN_PERCENT,282,17,7,10,NOT WS_VISIBLE
+END
+
+IDD_ADDRESS_LEFT DIALOG DISCARDABLE  0, 0, 126, 365
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_NAME,3,17,119,172,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "All",IDC_SELECT_ALL,"Button",BS_AUTORADIOBUTTON,4,3,25,
+                    8
+    CONTROL         "None",IDC_SELECT_NONE,"Button",BS_AUTORADIOBUTTON,30,3,
+                    31,8
+    CONTROL         "Add",IDC_ADD,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    BS_FLAT | WS_TABSTOP,67,2,27,12
+    CONTROL         "Delete",IDC_DELETE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | BS_FLAT | WS_TABSTOP,94,2,27,12
+END
+
+IDD_DIALOG_ADD_ENTRY DIALOGEX 0, 0, 188, 223
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Add Entry"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,49,7,128,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDRESS,49,24,128,53,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_EMAIL,49,82,128,29,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_PHONE,49,116,128,29,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    EDITTEXT        IDC_NOTES,49,151,128,29,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "OK",IDOK,135,189,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,189,50,14
+    LTEXT           "Name:",IDC_STATIC,2,8,42,10,0,WS_EX_RIGHT
+    LTEXT           "Address:",IDC_STATIC,2,26,42,10,0,WS_EX_RIGHT
+    LTEXT           "Email (alias):",IDC_STATIC,2,83,42,10,0,WS_EX_RIGHT
+    LTEXT           "Phone:",IDC_STATIC,2,118,42,10,0,WS_EX_RIGHT
+    LTEXT           "Notes:",IDC_STATIC,2,152,42,10,0,WS_EX_RIGHT
+    LTEXT           "Message Box",IDC_MESSAGE,6,212,177,10
+    CONTROL         141,IDC_STATIC_HAZARD,"Static",SS_BITMAP | NOT 
+                    WS_VISIBLE,12,178,32,30
+END
+
+IDD_DIALOG_RETURN_ADDRESS DIALOG DISCARDABLE  0, 0, 136, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Return Address"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,70,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,32,70,50,14
+    EDITTEXT        IDC_RETURN_ADDRESS,4,4,128,53,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+END
+
+IDD_DIALOG_GROUP DIALOG DISCARDABLE  0, 0, 278, 294
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Update Group"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NEW_GROUP,3,175,90,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "New",IDC_NEW,63,190,30,11,BS_FLAT | WS_DISABLED
+    LISTBOX         IDC_GROUP_NAME,3,37,90,129,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_DELETE,63,24,30,11,BS_FLAT | WS_DISABLED
+    LISTBOX         IDC_MEMBER_NAME,101,19,126,255,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "All",IDC_ALL,"Button",BS_AUTORADIOBUTTON,167,8,21,8
+    CONTROL         "None",IDC_NONE,"Button",BS_AUTORADIOBUTTON,195,8,30,8
+    DEFPUSHBUTTON   "OK",IDOK,235,100,40,14
+    PUSHBUTTON      "Cancel",IDCANCEL,235,86,40,14
+    LTEXT           "Group:",IDC_GROUP_TEXT,6,26,56,8
+    LTEXT           "Members:",IDC_STATIC,103,8,31,8
+    LTEXT           "Message Box",IDC_GROUP_MESSAGE,3,280,272,9
+END
+
+IDD_DIALOG_LICENSE DIALOGEX 0, 0, 189, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "License"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,106,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,133,50,14,NOT WS_VISIBLE
+    LTEXT           "Unable to run address application due to licensing error.",
+                    IDC_STATIC,7,46,175,8
+    EDITTEXT        IDC_LICENSE,80,72,76,12,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Valid license is: ",IDC_STATIC,28,73,48,8
+    CONTROL         141,IDC_STATIC_HAZARD,"Static",SS_BITMAP | SS_NOTIFY,76,
+                    7,36,33,WS_EX_DLGMODALFRAME
+    LTEXT           "Initialization code:",IDC_STATIC_INITIALIZATION_CODE,19,
+                    97,56,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_INITIALIZATION_CODE,79,97,76,12,ES_READONLY | NOT 
+                    WS_VISIBLE | NOT WS_BORDER
+    EDITTEXT        IDC_TEMPORARY_KEY,79,110,76,12,NOT WS_VISIBLE | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Temporary key:",IDC_STATIC_TEMPORARY_KEY,26,110,49,8,
+                    NOT WS_VISIBLE
+END
+
+IDD_DIALOG_MESSAGE DIALOGEX 0, 0, 189, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "License"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,106,133,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,133,50,14,NOT WS_VISIBLE
+    CTEXT           "Unable to run address application due to licensing error.  A Temporary license may be obtained by entering a temporary key based on the given initialization code.",
+                    IDC_STATIC_MESSAGE,7,48,175,29
+    EDITTEXT        IDC_TEMPORARY_KEY,80,102,76,12,NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Temporary key:",IDC_STATIC_TEMPORARY_KEY,27,103,49,8
+    CONTROL         141,IDC_STATIC_HAZARD,"Static",SS_BITMAP | SS_NOTIFY,76,
+                    7,36,33,WS_EX_DLGMODALFRAME
+    LTEXT           "Initialization code:",IDC_STATIC_INITIALIZATION_CODE,19,
+                    90,57,8
+    EDITTEXT        IDC_INITIALIZATION_CODE,80,90,76,12,ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_DIALOG_LICENSE_MESSAGE DIALOGEX 0, 0, 189, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "License"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,106,186,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,186,50,14,NOT WS_VISIBLE
+    LTEXT           "Unable to run application due to licensing error.",
+                    IDC_STATIC,7,46,175,24
+    EDITTEXT        IDC_LICENSE,80,96,76,12,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Valid license is: ",IDC_STATIC,28,97,48,8
+    CONTROL         141,IDC_STATIC_HAZARD,"Static",SS_BITMAP | SS_NOTIFY,76,
+                    7,36,33,WS_EX_DLGMODALFRAME
+    LTEXT           "Initialization code:",IDC_STATIC_INITIALIZATION_CODE,19,
+                    140,56,8
+    EDITTEXT        IDC_INITIALIZATION_CODE,79,140,76,12,ES_READONLY | NOT 
+                    WS_BORDER
+    EDITTEXT        IDC_TEMPORARY_KEY,79,153,76,12,NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "Enter key:",IDC_STATIC_TEMPORARY_KEY,43,153,34,8
+    GROUPBOX        "Permanent",IDC_STATIC,13,79,162,38
+    GROUPBOX        "Temporary",IDC_STATIC,13,127,162,44
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "address MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "address\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "address.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "address Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 267
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_DIALOG_ADD_ENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_DIALOG_RETURN_ADDRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 132
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DIALOG_GROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 275
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 289
+    END
+
+    IDD_DIALOG_LICENSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_LICENSE_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LINE                BITMAP  DISCARDABLE     "res\\line.bmp"
+IDB_HAZARD              BITMAP  DISCARDABLE     "res\\hazard.bmp"
+IDB_ICON                BITMAP  DISCARDABLE     "res\\icon.bmp"
+IDB_LINE4               BITMAP  DISCARDABLE     "res\\address48D.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "address\nuntitled\naddress\n Files (*.add,*.txt,*.csv)\n.add;*.txt;*.csv\naddress.Document\naddress Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "address"
+    AFX_IDS_IDLEMESSAGE     " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document to a new file\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy address information in main view window to the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_EXPORT_MAILRC   "Save current email addresses as aliases in Unix .mailrc file format"
+    ID_VIEW_RETURN_ADDRESS  "Enter return address to be used on printed envelopes"
+    ID_FONT_CHOOSE          "Select a different font"
+    ID_FONT_RESTOREDEFAULT  "Restore the default font"
+    ID_GROUP_UPDATE         "Add a new group or update members for an existing group"
+    ID_GROUP_ONE            "Select group"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_EXPORT_CSV      "Save name and email address in CSV (comma separated value) format for import into Outlook Express"
+    ID_FILE_EXPORT_PALM_CSV "Save name, address, phone, and email in CSV (comma separated value) format for import into Palm address book"
+    ID_FILE_MERGE           "Merge another file with this document\nMerge"
+    ID_VIEW_LAST_NAME_FIRST "Last name, first name\nToggle LastNameFirst"
+    ID_FILE_SAVE_SELECTED_AS 
+                            "Save the selected names to a new file\nSave Selected As"
+    ID_FILE_WRITE_SELECTED_TO_FILE 
+                            "Write selected names to a new file\nWrite Selected To File"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_FONT                "Choose Font"
+    IDC_NAME                "List of member names.  Double click an item to edit address, email, or phone"
+    IDC_SELECT_ALL          "Select all names"
+    IDC_SELECT_NONE         "Clear selection of names"
+    IDC_ADD                 "Add a new entry"
+    IDC_DELETE              "Remove selected names"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_LIST                "Show selected names as a list"
+    IDC_BOOK                "Show selected names in book (column) format"
+    IDC_ENVELOPE            "Show selected names on envelopes"
+    IDC_LABEL               "Show addresses on 2.625 X 1.0 inch (US) or 64 X 33.9 mm (A4) labels.  Select start label with left mouse button"
+    IDC_LINE_SPACING        "Set line spacing in points"
+    IDC_COLUMN_WIDTH        "Set column width in hundredths of an inch"
+    IDC_LINE_SPACING_DEFAULTS "Set default line spacing in points"
+    IDC_COLUMN_WIDTH_DEFAULTS 
+                            "Restore column width to default value in hundredths of an inch"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_RETURN              "Show return address on envelope or labels (to label selected with right mouse button)"
+    IDC_MEMBER_NAME         "List of member names.  Select name to include in group"
+    IDC_RETURN_SIZE         "Return address size as a percentage of mailing address size"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\address.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

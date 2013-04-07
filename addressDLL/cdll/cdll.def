@@ -1,0 +1,4 @@
+;you should put names of all functions here
+;which you want to export
+EXPORTS
+	square
